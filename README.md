@@ -8,7 +8,6 @@ This is a monorepo containing both the client and server components of the PDF R
 .
 ├── client/          # Next.js frontend application
 ├── server/          # Node.js backend server
-├── package.json     # Root package.json for workspace management
 └── README.md        # This file
 ```
 
@@ -31,15 +30,7 @@ npm install
 npm run dev
 ```
 
-This will start both the client and server concurrently.
-
-## Available Scripts
-
-- `npm run dev` - Start both client and server in development mode
-- `npm run client` - Start only the client
-- `npm run server` - Start only the server
-
 ## Development
 
 - Client runs on: http://localhost:3000
-- Server runs on: http://localhost:3001
+- Server runs on: http://localhost:8000
